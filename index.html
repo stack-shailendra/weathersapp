@@ -123,14 +123,14 @@
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter city name" id="val">
-            <button id="myBtn" onclick="load()" ><img src="../src/images/search.png" alt=""></button>
+            <button id="myBtn" onclick="load()" ><img src="src/images/search.png" alt=""></button>
 
 
         </div>
 
 
         <div class="weather">
-            <img src="../src/images/rain.png" alt="" class="weather-icon">
+            <img src="src/images/rain.png" alt="" class="weather-icon">
             <h1 class="temp">32°C</h1>
             <h2 class="city">Delhi</h2>
 
@@ -138,7 +138,7 @@
 
             <div class="details">
                 <div class="col">
-                    <img src="../src/images/humidity.png" alt="">
+                    <img src="src/images/humidity.png" alt="">
                     <div>
                         <p class="humidity">50%</p>
                         <p>Humidity</p>
@@ -146,7 +146,7 @@
                 </div>
 
                 <div class="col">
-                    <img src="../src/images/wind.png" alt="">
+                    <img src="src/images/wind.png" alt="">
                     <div>
                         <p class="wind">5k/h</p>
                         <p>wind speed</p>
@@ -179,17 +179,17 @@
             var icon = document.querySelector(".weather-icon")
             console.log(weather)
             if(weather =="Clear"){
-                icon.src = "../src/images/clear.png"
+                icon.src = "src/images/clear.png"
             }else if(weather == "Clouds"){
-                icon.src = "../src/images/clouds.png"
+                icon.src = "src/images/clouds.png"
             }else if(weather == "Drizzle"){
-                icon.src = "../src/images/drizzle.png"
+                icon.src = "src/images/drizzle.png"
             }else if(weather == "Mist"){
-                icon.src = "../src/images/mist.png"
+                icon.src = "src/images/mist.png"
             }else if(weather == "Rain"){
-                icon.src = "../src/images/rain.png"
+                icon.src = "src/images/rain.png"
             }else if(weather == "Snow"){
-                icon.src = "../src/images/snow.png"
+                icon.src = "src/images/snow.png"
             }
 
         }
